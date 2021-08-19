@@ -1,7 +1,7 @@
 # HTML / CSS 구조잡기 
 
 ## 1일차
-### 1. h tag
+    1. h tag
   
       a. h1 tag 쓰임 : logo, 혹은 제일 중요한 정보들, 페이지당 딱 한번만 사용가능하다.
 
@@ -27,7 +27,7 @@
          </div>
       
    
-### 2. script 파일은 body tag의 최하단에 위치 시켜야함. / <link rel = > 은 head tag의      
+    2. script 파일은 body tag의 최하단에 위치 시켜야함. / <link rel = > 은 head tag의      
 
 ## 2일차
   1. ☆★ 레이아웃 잡을때 행을 기준으로 생각, 그담 열 ☆★
