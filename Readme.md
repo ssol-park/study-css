@@ -24,7 +24,8 @@
        <h2></h2>
        <h3></h3>
      </div>
-    ```   
+   ```
+   
 2. script 파일은 body tag의 최하단에 위치 시켜야함. / <link rel = > 은 head tag의      
 
 ## 2일차
