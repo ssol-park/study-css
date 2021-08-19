@@ -26,27 +26,33 @@
            <h3></h3>
          </div>
       
-   
-    2. script 파일은 body tag의 최하단에 위치 시켜야함. / <link rel = > 은 head tag의      
 
 ## 2일차
   1. ☆★ 레이아웃 잡을때 행을 기준으로 생각, 그담 열 ☆★
+ 
   2. gnb : global navigation bar
+ 
   3. block 엘리먼트 : 수직(위에서 아래로 쌓이는) / inline 엘리먼트 : span(수평)
-    - span : 레이아웃에서는 잘 안씀 -> 제어가 잘 안됨(css 잘 안먹힘)
+        
+        - span : 레이아웃에서는 잘 안씀 -> 제어가 잘 안됨(css 잘 안먹힘)
+   
   4. font-family : -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
-    'Open Sans', 'Helvetica Neue', sans-serif; 
-    --> 외부 폰트 사용할거 아니면 이게 제일 나음
+    'Open Sans', 'Helvetica Neue', sans-serif;    --> 외부 폰트 사용할거 아니면 이게 제일 나음
   
   5. flex는 항상 부모 컨테이너에서 제어.
+    
     - 자식 엘리먼트 가운데, 중앙 정렬 공식
       display: flex;
       justify-content: center;
       align-items: center;
       
   6. position 
+    
     - 1.absolute : 부모 혹은 부모의 부모 컨테이너에 반드시 position: relative 설정을 해줘야한다. 부모의 원점을 기준으로 움직임
     - 2.relative : 자신이 위치한 위치를 기준으로 움직임
   
-  시멘틱 태그 : https://www.w3schools.com/html/html5_semantic_elements.asp
-  reset.css : https://meyerweb.com/eric/tools/css/reset/ --> css 파일들 중 최상단에 위치시켜야 한다. 
+  
+  
+  -시멘틱 태그 : https://www.w3schools.com/html/html5_semantic_elements.asp
+  
+  -reset.css : https://meyerweb.com/eric/tools/css/reset/ --> css 파일들 중 최상단에 위치시켜야 한다. 
