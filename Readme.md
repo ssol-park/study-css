@@ -58,6 +58,7 @@
   -reset.css : https://meyerweb.com/eric/tools/css/reset/ --> css 파일들 중 최상단에 위치시켜야 한다. 
   
 ## 03
+```
    1. 가상선택자(:) --> ex. div:hover  
     - div:nth-child()를 사용하는 것 보다, 자식 엘리에 class or id 값을 지정하는게 더 좋다.
     
@@ -69,4 +70,4 @@
     - .container{ display: flex; }
     - .container > .div-left{ flex:1 }
     - .container > .div-right{ width: 200px; }
-   
+```   
