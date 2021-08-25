@@ -63,11 +63,13 @@
     - div:nth-child()를 사용하는 것 보다, 자식 엘리에 class or id 값을 지정하는게 더 좋다.
     
    2. > : 첫번째 자식(바로아래)에게만 적용, > 없으면 모든 자식에게 적용
-    - section > .content : section의 첫번째 자식 .content 에게만 적용
-    - section .content : section의 모든 자식 .content에 적용
+    - section > .content --> section의 첫번째 자식 .content 에게만 적용
+    - section .content --> section의 모든 자식 .content에 적용
     
    3. div.container 두 개의 자식 div ( div-left, div-right ). div-right의 width:200px 을 주고 row 정렬 하기
     - .container{ display: flex; }
     - .container > .div-left{ flex:1 }
     - .container > .div-right{ width: 200px; }
 ```   
+
+page ruler redux -> 크롬 확장프로그램 (줄자)
