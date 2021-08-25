@@ -5,12 +5,9 @@
 }
 header {
   background-color: #eee;
-  /* flex는 항상 부모컨테이너에서 제어 */
   height: 100px;
   display: flex;
-  /* 가로 어떻게 */
   justify-content: space-between;
-  /* 세로 어떻게 */
   align-items: center;
 
   padding-left: 100px;
@@ -45,4 +42,41 @@ ul > li {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.slide {
+  height: 400px;
+  background-color: #ddd;
+}
+
+.contents {
+  display: flex;
+  height: 300px;
+}
+
+.contents > div {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+}
+
+footer {
+  display: flex;
+  height: 200px;
+}
+
+footer > .footer-left {
+  width: 200px;
+  background-color: cornsilk;
+}
+
+footer > .footer-center {
+  flex: 1;
+}
+
+footer > .footer-right {
+  width: 200px;
+  background-color: cornflowerblue;
 }
