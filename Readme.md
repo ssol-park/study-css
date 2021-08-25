@@ -33,7 +33,7 @@
   2. gnb : global navigation bar
  
   3. block 엘리먼트 : 수직(위에서 아래로 쌓이는) / inline 엘리먼트 : span(수평)
-        
+        - block 엘리 default 값 - width 100%
         - span : 레이아웃에서는 잘 안씀 -> 제어가 잘 안됨(css 잘 안먹힘)
    
   4. font-family : -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
@@ -56,3 +56,17 @@
   -시멘틱 태그 : https://www.w3schools.com/html/html5_semantic_elements.asp
   
   -reset.css : https://meyerweb.com/eric/tools/css/reset/ --> css 파일들 중 최상단에 위치시켜야 한다. 
+  
+## 03
+   1. 가상선택자(:) --> ex. div:hover  
+    - div:nth-child()를 사용하는 것 보다, 자식 엘리에 class or id 값을 지정하는게 더 좋다.
+    
+   2. > : 첫번째 자식(바로아래)에게만 적용, > 없으면 모든 자식에게 적용
+    - section > .content : section의 첫번째 자식 .content 에게만 적용
+    - section .content : section의 모든 자식 .content에 적용
+    
+   3. div.container 두 개의 자식 div ( div-left, div-right ). div-right의 width:200px 을 주고 row 정렬 하기
+    - .container{ display: flex; }
+    - .container > .div-left{ flex:1 }
+    - .container > .div-right{ width: 200px; }
+   
