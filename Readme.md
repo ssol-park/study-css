@@ -84,9 +84,7 @@ page ruler redux -> 크롬 확장프로그램 (줄자)
    
 ```
 
-   - BEM : https://nykim.work/15 
-   
-           http://getbem.com/
+   - BEM : https://nykim.work/15 , http://getbem.com/
            
    - flat color 색상 조합 : https://flatuicolors.com/
 
