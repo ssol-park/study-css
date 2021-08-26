@@ -39,7 +39,7 @@
   4. font-family : -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
     'Open Sans', 'Helvetica Neue', sans-serif;    --> 외부 폰트 사용할거 아니면 이게 제일 나음
   
-  5. flex는 항상 부모 컨테이너에서 제어.
+  5. ☆★flex는 항상 부모 컨테이너에서 제어.☆★
     
     - 자식 엘리먼트 가운데, 중앙 정렬 공식
       display: flex;
@@ -73,3 +73,21 @@
 ```   
 
 page ruler redux -> 크롬 확장프로그램 (줄자)
+
+## 04
+```
+   1. BEM: Block, Element, Modifier 를 뜻한다. 저 세 가지로 구성된 naming. __ 와 --로 구분한다.
+   
+   2. 헤더 혹은 타이틀에 letter-spacing: -1px 넣으면 단단해 보임
+   
+   3. div 내부에 일반 글자만 있어도 자식엘리먼트로 취급
+   
+```
+
+   - BEM : https://nykim.work/15 
+   
+           http://getbem.com/
+           
+   - flat color 색상 조합 : https://flatuicolors.com/
+
+   - SSR vs CSR : https://www.sarah-note.com/%ED%81%B4%EB%A1%A0%EC%BD%94%EB%94%A9/posting2/
