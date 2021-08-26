@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
+    'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  /* 가운데, 중앙정렬 항상 부모ele에 css 설정 */
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 360px;
+}

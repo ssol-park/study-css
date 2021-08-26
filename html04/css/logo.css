@@ -1,0 +1,11 @@
+.logo {
+  /* 로고라서 h1 */
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.logo > img {
+  width: 66px;
+  height: 36px;
+}
