@@ -1,7 +1,5 @@
 .logo {
   /* 로고라서 h1 */
-  display: flex;
-  justify-content: center;
   margin-top: 20px;
 }
 

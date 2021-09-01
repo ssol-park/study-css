@@ -1,15 +1,39 @@
 * {
   box-sizing: border-box;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell,
-    'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 body {
   /* 가운데, 중앙정렬 항상 부모ele에 css 설정 */
   display: flex;
   justify-content: center;
+  background-color: #fafafa;
 }
 
 .container {
-  width: 360px;
+  /* 가로 최소크기 이 이하로 더 작아지지않음 */
+  /* max-height ex> 채팅방에 채팅이 계속 쌓일때 max를 넘어가면 스크롤이 생기도록 */
+  min-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button {
+  /* 테두리 없앰 */
+  border: 0;
+  /* 부모의 색깔 가져옴 */
+  background-color: transparent;
+  /* 마우스 올리면 커서로 */
+  cursor: pointer;
+}
+
+/* margin css */
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mt-30 {
+  margin-top: 30px;
 }
