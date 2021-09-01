@@ -89,3 +89,10 @@ page ruler redux -> 크롬 확장프로그램 (줄자)
    - flat color 색상 조합 : https://flatuicolors.com/
 
    - SSR vs CSR : https://www.sarah-note.com/%ED%81%B4%EB%A1%A0%EC%BD%94%EB%94%A9/posting2/
+
+## 05
+```
+    favicon.ico : 브라우저 제목 탭의 아이콘 이미지, 프로젝트의 루트 경로에 위치시키면 적용된다.
+```    
+    
+    
